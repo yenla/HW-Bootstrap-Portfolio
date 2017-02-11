@@ -1,0 +1,470 @@
+
+.navbar-header {}
+
+
+html {
+/*	width: 960px;*/
+}
+
+body {
+	
+	background: url(../images/redox_01_@2X.png) 0 0;
+}
+
+/* Nav Section Start
+================================================== */
+
+
+.navbar {
+	background: #4aaaa5;
+	font-family: Georgia;
+
+} 
+
+.navbar-brand {
+	font-size: 36px;
+
+}
+
+.navbar-default .navbar-brand {
+	color:#fff;
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: #fff;
+}
+
+
+.img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+	max-width: 30%;
+	display: block;
+	float:left;
+	padding:1px;
+	margin-left: 6px;
+
+}
+
+.img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img:last-child {
+  margin-right: 2px;
+}
+
+
+/* Nav Section End
+================================================== */
+
+/* Main Section Start
+================================================== */
+.container{
+	background: #fff;
+}
+
+.panel-default img {
+	width:50%;
+}
+/* Main Section End
+================================================== */
+
+
+header {
+	background: #fff;
+	height: 100px;
+	width: 100%;
+	border-style: solid 1px;
+	border-color: #cccccc;
+}
+
+header h1 {
+	background: #4aaaa5;
+	font-family: Georgia;
+	float: left;
+	padding: 32px;
+	font-size: 36px;
+	/*height: 60px;*/
+
+}
+
+.author-name {
+	display: inline-block;
+	position: relative;
+	left:10%;
+}
+
+#mainmenu #content a {
+	display: inline-block;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size:11px;
+	font-family: helvetica;
+    color: #777777;
+    outline: none;
+    text-decoration: none;
+	padding-left:10px;
+	padding-right: 10px;
+	position:relative;
+	float: left;
+	left:55%;
+	top:40px;
+}
+
+.mainmenu #content ul li {
+border-right: 1px solid #777777;
+
+}
+
+.mainmenu ul li:last-of-type {
+border-right: none;
+}
+
+.mainmenu ul ul li {
+border-right: none;
+}
+/*
+header #mainmenu #content nav a:after {
+	content:'|';
+	font-size:20px;
+	position:absolute;
+	top:0;
+	color: #777777;
+	font-weight:bold;
+	border-right: 1px solid;
+	left:10px;
+}*/
+
+/* Header Section End
+================================================== */
+
+
+/* Social Media Content
+================================================== */
+
+
+aside {
+	width: 270px;
+	height: 175px;
+	background: #fff;
+	position: absolute;
+	float: left;
+	left: 65%;
+	top: 16%;
+
+}
+
+aside h3 {
+	color: #4aaaa5;
+	font-family: Georgia;
+	font-size: 20px;
+	padding: 10px;
+	font-weight: bold;
+	margin-left: 20px;
+	margin-top: 10px;
+
+}
+
+hr {
+	color: #edf0fa;
+	margin-left: 30px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+.icon-section {
+	/*padding-left: 20px;*/
+	margin-left: 30px;
+}
+
+aside img {
+	width: 20%;
+	display: inline-block;
+	float: left;
+	margin-right: 10px;
+	opacity: 0.4;
+}
+
+aside { clear: both; }
+
+aside img:hover {
+	opacity: 1.0;
+}
+
+/* Social Media Content End
+================================================== */
+
+
+/* Main Content Start (Index.html)
+================================================== */
+.wrapper {
+	min-height: 100%;
+	margin:20px;
+	width: 650px;
+	height:100%;
+
+  /* Equal to height of footer */
+  /* But also accounting for potential margin-bottom of last child */
+  margin-bottom: -50px;
+}
+
+section {
+	/*display: inline-block;*/
+    position: absolute;
+    left: 10%;
+    background: #fff;
+    width: 650px;
+}
+
+article {
+	margin:20px;
+}
+
+article h2 {
+	color: #4aaaa5;
+	font-family: Georgia;
+	font-size: 28px;
+	padding-top: 20px;
+	font-weight: bold;
+	margin:20px 0px 20px 30px;
+}
+
+article #main-image {
+	padding: 20px;
+}
+
+article .about-copy {
+	font-family: helvetica;
+	font-size: 12px;
+	color:#777777;
+	padding: 20px;
+
+}
+
+#content img {
+	float: left;
+	padding: 10px;
+}
+
+/* Main Content End (Index.html)
+================================================== */
+
+
+/* Main Content Start (Portfolio.html)
+==================================================  */
+
+
+/*article .project {
+	font-family: helvetica;
+	font-size: 12px;
+	color:#777777;
+	padding: 20px;
+	position: relative;
+
+}
+
+.project img {
+	position: relative;
+	width: 40%;
+	top: 100px; 
+   	left: 0; 
+}
+
+
+h5 span { 
+   color: white; 
+   font: 24px/45px Garamond; 
+   letter-spacing: -1px;  
+   background: rgb(0, 0, 0); 
+   background: #4aaaa5;
+   padding: 10px; 
+   float: left;
+   position: relative;
+}*/
+
+.containerBox {
+    position: relative;
+    display: inline-block;
+    margin-left: 20px;
+	
+	float: left;
+    overflow: hidden;
+}
+/*.text-box {
+    position: absolute;    
+    height: 100%;
+    text-align: center;    
+    width: 100%;
+    padding-top: 60px;
+}*/
+
+.text-box01 {
+    /*position: absolute;
+    height: 25%;
+    width: 85%;
+    bottom: 15px;
+    background-color: #4aaaa5;*/
+
+    /*text-align: center;*/
+    /* padding-top: 60px; */   
+	
+    position: absolute;
+    height: 8%;
+    width: 45%;
+    left: 10px;
+    top: 170px;
+    background-color: #4aaaa5;
+}
+
+.text-box02 {
+
+    position: absolute;
+    height: 8%;
+    width: 45%;
+    right: 33px;
+    top: 170px;
+    background-color: #4aaaa5;
+}
+
+.text-box03 {
+
+    position: absolute;
+    height: 8%;
+    width: 45%;
+    left: 10px;
+    top: 428px;
+    background-color: #4aaaa5;
+}
+
+.text-box04 {
+
+    position: absolute;
+    height: 8%;
+    width: 45%;
+    right: 33px;
+    top: 428px;
+    background-color: #4aaaa5;
+}
+
+.text-box05 {
+
+    position: absolute;
+    height: 8%;
+    width: 45%;
+    left: 10px;
+    bottom: 23px;
+    background-color: #4aaaa5;
+}
+
+.caption {
+	padding: 20px;
+	bottom: 5px;
+	position: absolute;
+}
+
+
+.text-box:before {
+   content: '';
+   display: inline-block;
+   height: 100%;
+   vertical-align: middle;
+}
+
+/*h5 {
+   display: inline-block;
+   font-size: 20px; 
+   color: #FFF;  
+   background-color: #4aaaa5; 
+   margin-left: 30px;
+   height: 55px;
+   width: 296px;
+}*/
+h5 {
+	position: absolute;
+    height: 25%;
+    color: #fff;
+    font-size: 18px;
+    font-weight: lighter;
+    text-align: center;
+    width: 50%;
+    /* padding-top: 60px; */
+    bottom: 0px;
+    left:55px;
+    float: left;
+    /*background-color: #4aaaa5;*/
+}
+
+img {
+  display: block;
+  max-width: 45%;
+  height: auto;
+}
+
+
+/* Main Content End (Portfolio.html)
+================================================== */
+
+
+/* Main Content Start (Contact.html)
+================================================== */
+
+
+#contact-form {
+	font-family: helvetica;
+	font-size: 18px;
+	line-height: 23px;
+	color: #777777;
+	padding: 20px;
+
+}
+
+form input {
+	width: 25%;
+}
+/*form input #message {
+	width: 150px;
+	height: 250px;
+}*/
+
+input[type=text] {
+	width: 90%;
+	padding: 10px;
+	margin-top: 10px;
+
+}
+
+#message {
+	height: 100px;
+}
+
+/* Main Content End (Contact.html)
+================================================== */
+
+/*#line {
+	height:10px;
+	background-color: #4aaaa5;
+	position: absolute;
+	margin-top: 10%;
+}
+*/
+.clearfix {
+	clear: both;
+}
+
+.footer {
+	background: #666666;
+    height: 100px;
+    width: 100%;
+    padding-top: 18px;
+    text-align: center;
+    color:#d1d3d3;
+    font-size:11px;
+    position: absolute;
+    /*margin-top: 68%;*/
+
+}
+
+footer header {
+	float: left;
+
+}
+
+.footer,
+.push {
+  height: 50px;
+}
